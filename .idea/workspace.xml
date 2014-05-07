@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="d00eb240-323f-498e-afcc-785325388440" name="Default" comment="" />
+    <ignored path="angular_rwmt.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="angular_rwmt" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.4977806">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="93" column="50" selection-start="4823" selection-end="4832" vertical-scroll-proportion="0.4375" vertical-offset="1224" max-vertical-offset="2040">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="addEditCar.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/partials/addEditCar.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="25" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="935">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="publishRide.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/partials/publishRide.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="40" column="0" selection-start="2115" selection-end="2115" vertical-scroll-proportion="-10.153846" vertical-offset="416" max-vertical-offset="1292">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="24" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="612">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mainApp.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vendor/mainApp.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="202" column="17" selection-start="5442" selection-end="5442" vertical-scroll-proportion="0.0" vertical-offset="2692" max-vertical-offset="3553">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/profile.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="88" column="111" selection-start="5605" selection-end="5673" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="3723">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mainApp.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/mainApp.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="40" column="50" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="loadTemplates.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/directives/loadTemplates.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="42" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="680">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="partials.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/directives/partials.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="935">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mainCtrl.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/controllers/mainCtrl.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="newRide.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/newRide.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="88" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="714">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="accountDetails.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/controllers/accountDetails.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="203" column="42" selection-start="7420" selection-end="7420" vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="4471">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="authentication.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/directives/authentication.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="6" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1938">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="processRides.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/controllers/processRides.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="0" selection-start="857" selection-end="857" vertical-scroll-proportion="0.52880186" vertical-offset="51" max-vertical-offset="1870">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/directives/gmap_1.js" />
+        <option value="$PROJECT_DIR$/app/app_1.js" />
+        <option value="$PROJECT_DIR$/map.html" />
+        <option value="$PROJECT_DIR$/vendor/toastr/toastr.js" />
+        <option value="$PROJECT_DIR$/controllers/postBooking.js" />
+        <option value="$PROJECT_DIR$/templates/newbooking.html" />
+        <option value="$PROJECT_DIR$/templates/newride.html" />
+        <option value="$PROJECT_DIR$/templates/rideslist.html" />
+        <option value="$PROJECT_DIR$/templates/ridesList.html" />
+        <option value="$PROJECT_DIR$/directives/loadTemplates.js" />
+        <option value="$PROJECT_DIR$/controllers/googleMapsCtrl.js" />
+        <option value="$PROJECT_DIR$/directives/googlemapsRide.js" />
+        <option value="$PROJECT_DIR$/vendor/bootstrap/bootstrap.css" />
+        <option value="$PROJECT_DIR$/vendor/slider/angular-slider.css" />
+        <option value="$PROJECT_DIR$/vendor/toaster/toaster.js" />
+        <option value="$PROJECT_DIR$/directives/googlemap.js" />
+        <option value="$PROJECT_DIR$/templates/newRideMap.html" />
+        <option value="$PROJECT_DIR$/vendor/modern-business.css" />
+        <option value="$PROJECT_DIR$/vendor/hint/hint.css" />
+        <option value="$PROJECT_DIR$/controllers/register.js" />
+        <option value="$PROJECT_DIR$/vendor/cookieStore/cookieStore.js" />
+        <option value="$PROJECT_DIR$/templates/searchMap.html" />
+        <option value="$PROJECT_DIR$/controllers/mainCtrl.js" />
+        <option value="$PROJECT_DIR$/templates/search.html" />
+        <option value="$PROJECT_DIR$/controllers/registerLogin.js" />
+        <option value="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/templates/partials/vehicleDetails.html" />
+        <option value="$PROJECT_DIR$/templates/partials/otherDetails.html" />
+        <option value="$PROJECT_DIR$/templates/partials/profileDetails.html" />
+        <option value="$PROJECT_DIR$/vendor/interaction.js" />
+        <option value="$PROJECT_DIR$/templates/registerConfirmation.html" />
+        <option value="$PROJECT_DIR$/directives/gravatar.js" />
+        <option value="$PROJECT_DIR$/directives/factories.js" />
+        <option value="$PROJECT_DIR$/directives/authentication.js" />
+        <option value="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/directives/partials.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/templates/profile.html" />
+        <option value="$PROJECT_DIR$/controllers/accountDetails.js" />
+        <option value="$PROJECT_DIR$/templates/partials/addEditCar.html" />
+        <option value="$PROJECT_DIR$/templates/newRide.html" />
+        <option value="$PROJECT_DIR$/vendor/mainApp.css" />
+        <option value="$PROJECT_DIR$/templates/partials/publishRide.html" />
+        <option value="$PROJECT_DIR$/controllers/processRides.js" />
+        <option value="$PROJECT_DIR$/app/mainApp.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_rwmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\angular_rwmt\vendor\slider" />
+      <recent name="C:\wamp\www\angular_rwmt\vendor\images" />
+      <recent name="C:\wamp\www\angular_rwmt\templates" />
+      <recent name="C:\wamp\www\angular_rwmt\vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\angular_rwmt\vendor" />
+      <recent name="C:\wamp\www\angular_rwmt\vendor\font" />
+      <recent name="C:\wamp\www\angular_rwmt\vendor\toastr" />
+      <recent name="C:\wamp\www\angular_rwmt" />
+      <recent name="C:\wamp\www\angular_rwmt\app" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost.rwmt.com" />
+          <option name="urlPath" value="/app_dev.php/api/v1/rides" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="fromAddress" />
+                <option name="value" value="Strada Nicoriță, Iași, România" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="toAddress" />
+                <option name="value" value="InSoftDEV, Gradinari, Iași, Romania" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost.rwmt.com" />
+          <option name="urlPath" value="/app_dev.php/api/v1/rides" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;fromAddress&quot;:&quot;Strada Nicoriță, Iași, România&quot;,&quot;toAddress&quot;:&quot;InSoftDEV, Gradinari, Iași, Romania&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost.rwmt.com" />
+          <option name="urlPath" value="/app_dev.php/api/v1/rides" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;fromAddress&quot;:&quot;Strada Nicoriță, Iași, România&quot;,&quot;toAddress&quot;:&quot;InSoftDEV, Gradinari, Iași, Romania&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost.rwmt.com" />
+          <option name="urlPath" value="/app_dev.php/api/v1/rides" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{'test':'test'}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\Bogdan Cochior\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d00eb240-323f-498e-afcc-785325388440" name="Default" comment="" />
+      <created>1393870941199</created>
+      <updated>1393870941199</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21906267" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265086" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49676025" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978448" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/mainApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/googleMapsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/processRides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="78" selection-start="1069" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newRide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/googlemap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="2329" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="10" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mainApp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="8" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mainApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/googleMapsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/processRides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="78" selection-start="1069" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newRide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/googlemap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="352" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2329" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="411" column="19" selection-start="7068" selection-end="7068" vertical-scroll-proportion="0.33333334" vertical-offset="6687" max-vertical-offset="15929" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/ngAutocomplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/googleMapsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="354" selection-end="354" vertical-scroll-proportion="0.22666667" vertical-offset="0" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slider/angular-slider.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/googlemapsRide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="315" column="3" selection-start="97" selection-end="12765" vertical-scroll-proportion="1.1149944" vertical-offset="4366" max-vertical-offset="5457" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slider/angular-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="13" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.35958904" vertical-offset="688" max-vertical-offset="1564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newRideMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="18" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.6500579" vertical-offset="0" max-vertical-offset="863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/modern-business.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="16" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2380" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hint/hint.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="246" column="36" selection-start="6315" selection-end="6315" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="4879" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ridesList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="505" selection-end="505" vertical-scroll-proportion="0.21922626" vertical-offset="0" max-vertical-offset="853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/searchMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="69" selection-start="1962" selection-end="1968" vertical-scroll-proportion="-8.865385" vertical-offset="542" max-vertical-offset="1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="218" selection-end="218" vertical-scroll-proportion="0.096700795" vertical-offset="0" max-vertical-offset="879" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/vehicleDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/otherDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.07619048" vertical-offset="89" max-vertical-offset="986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/profileDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="59" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="136" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/interaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.15111111" vertical-offset="0" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/toaster/toaster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="0" selection-start="7437" selection-end="7437" vertical-scroll-proportion="3.3960738" vertical-offset="0" max-vertical-offset="3043" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/gravatar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="50" selection-end="603" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22991" selection-start="23150" selection-end="23161" vertical-scroll-proportion="0.12142857" vertical-offset="0" max-vertical-offset="840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registerConfirmation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="90" selection-start="1480" selection-end="1508" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/factories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="117" selection-start="395" selection-end="500" vertical-scroll-proportion="0.31408775" vertical-offset="0" max-vertical-offset="866" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/mainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/partials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/googlemap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="305" column="47" selection-start="14036" selection-end="14037" vertical-scroll-proportion="1.8107142" vertical-offset="3664" max-vertical-offset="11594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/loadTemplates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="42" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newRide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="88" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="111" selection-start="5605" selection-end="5673" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/addEditCar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="25" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mainApp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="17" selection-start="5442" selection-end="5442" vertical-scroll-proportion="0.0" vertical-offset="2692" max-vertical-offset="3553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="27" selection-start="4342" selection-end="4641" vertical-scroll-proportion="0.4940476" vertical-offset="894" max-vertical-offset="1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/accountDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="42" selection-start="7420" selection-end="7420" vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="4471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/processRides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="857" selection-end="857" vertical-scroll-proportion="0.52880186" vertical-offset="51" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/publishRide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="2115" selection-end="2115" vertical-scroll-proportion="-10.153846" vertical-offset="416" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mainApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="50" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="168" selection-end="168" vertical-scroll-proportion="0.078341015" vertical-offset="0" max-vertical-offset="98430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="50" selection-start="4823" selection-end="4832" vertical-scroll-proportion="0.4375" vertical-offset="1224" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

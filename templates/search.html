@@ -1,0 +1,52 @@
+<div class="row in-front col-md-3">
+    <div class="panel panel-default">
+        <!--<div class="panel-heading green">-->
+            <!--<h1 class="panel-title">Search nearby rides</h1>-->
+        <!--</div>-->
+        <div class="panel-body  green">
+            <h3 class="text-center"> Search nearby rides</h3>
+            <hr class="colorgraph">
+            <form  ng-controller="processForm">
+                <div id="poi" class="form-group">
+                    <!--<label for="search-rides" class="col-md-2 control-label">POI</label>-->
+
+                    <div class="col-md-12 input-group" tooltip="Enter your pickup location">
+                        <!--<span class="input-group-addon">Pickup</span>-->
+                        <i class="icon-prepend glyphicon glyphicon-search"></i>
+                        <input type="text" id="search-rides" class="form-control hint--top"
+                               ng-model="ride.search_rides" placeholder="Search by point of interest"
+                               data-hint="Enter a point of interest or choose one from our list"
+                               ng-autocomplete options="options" details="details" ng-change="ride.searchNearby();"/>
+                    <span class="input-group-addon" ng-click="ride.findLocation()"><i
+                            class="glyphicon glyphicon-screenshot"></i></span>
+                    </div>
+                </div>
+                <div id="range" class="form-group" data-ng-controller="mainCtrl">
+                    <label class="col-md-2 controls-label">Range</label>
+
+                    <div class="col-md-8" tooltip="Enter your pickup location">
+                        <!--<input type="text" id="search-range" ng-model="ride.searchRange" />-->
+                        <slider id="search-range" floor="1" ceiling="20" step="1" precision="2"
+                                ng-model="ride.searchRange" class="hint--top"
+                                data-hint="Select the range in km"></slider>
+                        <span class="range-search-span">{{ride.searchRange | number:0}} km</span>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="col-xs-4 col-md-offset-4">
+                    <button class="btn btn-primary" data-ng-click="ride.geoCode(); "><i
+                            class="glyphicon glyphicon-search"></i>
+                        Search
+                    </button>
+                </div>
+                <br/>
+
+                <div class="row-fluid text-right" data-ng-controller="mainCtrl">
+                    <span class="small-link"><a href=""> I prefer list view</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

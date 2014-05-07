@@ -1,0 +1,102 @@
+<div class="row vertical-offset-100 login_body">
+    <div class="col-md-4 col-md-offset-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">Please Sign Up
+                    <small>It's free and always will be.</small>
+                </h2>
+            </div>
+            <div class="panel-body">
+                <form ng-submit="registerFct()" accept-charset="UTF-8" role="form" name="register">
+                    <hr class="colorgraph">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="first_name" id="first_name"
+                                       class="form-control " placeholder="First Name" tabindex="1"
+                                       ng-model="register.firstName" required/>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="last_name" id="last_name"
+                                       class="form-control " placeholder="Last Name" tabindex="2"
+                                       ng-model="register.lastName" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="display_name" id="display_name"
+                               class="form-control " placeholder="Username" tabindex="3"
+                               ng-model="register.username" required/>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="email" name="email" id="email"
+                                       class="form-control " placeholder="Email Address" tabindex="4"
+                                       ng-model="register.email"  ng-pattern="EMAIL_REGEXP" required/>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="phone" name="phone" id="phone"
+                                       class="form-control " placeholder="Phone Number" tabindex="5"
+                                       ng-model="register.phone"  ng-pattern="PHONE_REGEXP" required/>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="password" name="password" id="password"
+                                       class="form-control " placeholder="Password (at least 8 characters)" tabindex="6"
+                                       ng-model="register.rawPassword"  ng-pattern="PASSWORD_REGEXP" required/>
+                            </div>
+                            <span class="help-block-success" ng-hide="register.rawPassword != register.rawPassword2 || !register.rawPassword2"
+                                  ng-show="register.rawPassword === register.rawPassword2"> <i class="glyphicon glyphicon-ok"></i> Password Matched
+                            </span>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="password" name="password_confirmation"
+                                       id="password_confirmation" class="form-control " placeholder="Confirm Password"
+                                       tabindex="7"
+                                       ng-model="register.rawPassword2"  ng-pattern="PASSWORD_REGEXP" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-3 col-md-3">
+					<span class="checkbox">
+                        <label class="is-black">
+                            <input type="checkbox" id="i-agree" class="btn" data-color="info" tabindex="8"
+                                   ng-model="register.agree"/>
+                            I Agree</label>
+					</span>
+                        </div>
+                        <div class="col-xs-8 col-sm-9 col-md-9">
+                            By clicking <strong class="label label-primary">Register</strong>, you agree to the <a
+                                href="#" data-toggle="modal" data-target="#t_and_c_m">Terms and Conditions</a> set out
+                            by this site, including our Cookie Use.
+                        </div>
+                    </div>
+
+                    <hr class="colorgraph">
+                    <div class="row-fluid help-red"
+                         ng-show="registerErrors">{{ registerErrors }}
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-md-offset-3">
+                            <input type="submit" value="Register" class="btn btn-primary btn-block btn-lg"
+                                   ng-disabled="register.$invalid || !register.agree"
+                                   tabindex="9"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

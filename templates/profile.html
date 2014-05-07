@@ -1,0 +1,213 @@
+<div class="row vertical-offset-100 login_body">
+    <div class="col-xs-4 col-xs-offset-4">
+        <div class="row">
+            <div class="col-sm-4 col-xs-4 user-details" data-ng-controller="profileCtrl">
+                <div class="user-image">
+                    <span gravatar name="{{ displayName }}" email-hash="{{ gravatarEmailHash }}"></span>
+                </div>
+                <div class="user-info-block">
+
+                    <div class="user-heading">
+                        <h3>{{ displayName }}</h3>
+                        <span class="help-block">
+                            <i class="glyphicon glyphicon-map-marker"></i>   {{ address || 'location'}}
+                        </span>
+                    </div>
+                    <!--<div class="row-fluid text-right upload-position">-->
+                        <!--<button class="btn btn-xs btn-default text-right">-->
+                            <!--Change <i class="glyphicon glyphicon-camera"></i>-->
+                        <!--</button>-->
+                    <!--</div>-->
+
+                    <ul class="navigation" id="profiler">
+                        <hr class="colorgraph">
+                        <li ng-class="{active: selectedTab == 1}">
+                            <a href="" ng-click="selectedTab = 1; selectTab1();">
+                                <i class="glyphicon glyphicon-user"></i> My profile
+                            </a>
+                        </li>
+                        <li ng-class="{active: selectedTab == 2}">
+                            <a href="" ng-click="selectedTab = 2;">
+                                <i class="glyphicon glyphicon-road"></i> Vehicle Info
+                            </a>
+                        </li>
+                        <li ng-class="{active: selectedTab == 3}">
+                            <a href="" ng-click="selectedTab = 3;">
+                                <i class="glyphicon glyphicon-cog"></i> Other settings
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="user-body">
+                        <div class="tab-content">
+                            <div id="information" ng-show="selectedTab == 1">
+                                <form ng-submit="updateProfile()" accept-charset="UTF-8" role="form" name="profile">
+                                    <hr class="colorgraph">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <label for="first_name">First name</label>
+                                            <input type="text" name="first_name" id="first_name"
+                                                   class="form-control " placeholder="First Name" tabindex="1"
+                                                   ng-model="firstName" required/>
+                                        </div>
+                                       <div class="col-xs-4">
+                                            <label for="last_name">Last name</label>
+                                           <input type="text" name="last_name" id="last_name"
+                                                  class="form-control " placeholder="Last Name" tabindex="2"
+                                                  ng-model="lastName" required/>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <label for="display_name">Username</label>
+                                             <input type="text" name="display_name" id="display_name"
+                                                    class="form-control " placeholder="Username" tabindex="3"
+                                                    ng-model="username" required/>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <label for="email">Email</label>
+                                            <i class="icon-underline-input glyphicon glyphicon-envelope"></i>
+                                            <input type="email" name="email" id="email"
+                                                   class="form-control " placeholder="Email Address" tabindex="5"
+                                                   ng-model="email" ng-pattern="EMAIL_REGEXP" required/>
+                                        </div>
+
+                                        <div class="col-xs-6">
+                                            <label for="phone">Phone number</label>
+                                            <i class="icon-underline-input glyphicon glyphicon-earphone"></i>
+                                            <input type="tel" name="phone" id="phone"
+                                                   class="form-control " placeholder="Phone Number" tabindex="6"
+                                                   ng-model="phone" ng-pattern="PHONE_REGEXP" required/>
+                                        </div>
+
+                                    </div>
+                                    <br/>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <label for="display_city">City, Country</label>
+                                            <i class="icon-underline-input glyphicon glyphicon-map-marker"></i>
+                                            <input type="text" name="display_city" id="display_city"
+                                                   class="form-control " placeholder="City, Country" tabindex="4"
+                                                   ng-model="address" required/>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <label for="gravatarhash">Gravatar Hash</label>
+                                            <i class="icon-underline-input glyphicon glyphicon-camera"></i>
+                                            <input type="text" name="gravatar" id="gravatarhash"
+                                                   class="form-control " placeholder="Gravatar email hash" tabindex="7"
+                                                   ng-model="gravatarEmailHash"/>
+                                        </div>
+                                        <div class="col-xs-12 text-right">
+                                            <a href="https://gravatar.com" target="_blank">What is Gravatar?</a>
+                                        </div>
+                                    </div>
+
+                                    <hr class="colorgraph">
+
+                                    <div class="row-fluid help-red"
+                                         ng-show="updateProfileErr">{{ updateProfileErr }}
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-6 col-xs-offset-3">
+                                            <input type="submit" value="Save"
+                                                   class="btn btn-success btn-block "
+                                                   ng-disabled="profile.$invalid"
+                                                   tabindex="9"/>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="vehicle" ng-show="selectedTab == 2">
+                                <div class="row-fluid">
+                                    <hr class="colorgraph">
+
+
+                                    <table id="mytable" class="table table-bordred table-striped">
+
+                                        <thead>
+
+                                        <th>Car</th>
+                                        <th>Year</th>
+                                        <th>Licence plate</th>
+                                        <th></th>
+                                        </thead>
+                                        <tbody>
+                                          <tr ng-repeat="car in cars">
+                                              <td> {{ car.maker }}  {{ car.model }}  {{ car.color }}</td>
+                                              <td> {{ car.year }}</td>
+                                              <td>  {{ car.licencePlate }}</td>
+                                              <td><button class="btn btn-default btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" data-placement="top" rel="tooltip"><span class="glyphicon glyphicon-pencil"></span></button>
+                                                  <button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip"><span class="glyphicon glyphicon-trash"></span></button>
+                                              </td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <div class="row-fluid">
+                                        <button type="button" class="btn btn-xs btn-success" ng-click="addCar=!addCar; addCarModal()">
+                                            <i class="glyphicon glyphicon-plus"></i> Add car
+                                        </button>
+                                    </div>
+                                    <br/>
+                                    {{ model }}
+                                    <form name="vehicle" class="form-horizontal" ng-submit="addCarFct()" ng-show="addCar">
+                                        <fieldset>
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <label for="carmaker">Car
+                                                        maker</label>
+                                                    <input id="carmaker" name="maker" type="text" placeholder=""
+                                                           class="form-control"
+                                                           ng-model="car.maker" value="{{ car.maker }}" required/>
+                                                </div>
+                                                <div class="col-xs-4">
+                                                    <label for="carmodel">Car model</label>
+                                                    <input id="carmodel" name="color" type="text" class="form-control"
+                                                           ng-model="car.model" value="{{ car.model }}" required/>
+                                                </div>
+                                                <div class="col-xs-4">
+                                                    <label for="carcolor">Car color</label>
+                                                    <input id="carcolor" name="color" type="text" class="form-control"
+                                                           ng-model="car.color" value="{{ car.color }}" required/>
+                                                </div>
+                                            </div>
+                                            <br/>
+                                            <div class="row">
+                                                <div class="col-xs-8">
+                                                    <label for="carlicense">License plate</label>
+                                                    <input id="carlicense" name="license" type="text"
+                                                           class="form-control"
+                                                           ng-model="car.licence" value="{{ car.licence }}" required/>
+                                                </div>
+                                                <div class="col-xs-4">
+                                                    <label for="caryear">Year car was
+                                                        built</label>
+                                                    <input id="caryear" name="year" type="text" class="form-control"
+                                                           ng-model="car.year" value="{{ car.year }}" required size="4"
+                                                           maxlength="4"/>
+                                                </div>
+                                            </div>
+                                            <hr class="colorgraph">
+                                            <div class="col-xs-6 col-xs-offset-3">
+                                                <input class="btn btn-success btn-block" type="submit" value="Save"
+                                                       ng-disabled="vehicle.$invalid"/>
+                                                <br/>
+                                            </div>
+
+                                        </fieldset>
+                                    </form>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="settings" ng-show="selectedTab == 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

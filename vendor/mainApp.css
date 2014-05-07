@@ -1,0 +1,204 @@
+﻿.ng-cloak{
+    display:none;
+}
+.in-front{
+    position: absolute;
+    z-index: 1000;
+    top: 20%;
+    left: 5%;
+    /*color:#ffffff;*/
+}
+
+.google-map-fixed{
+    position:relative;
+    top:3px;
+    width:100%;
+    z-index:1;
+    height: 50rem;
+
+}
+
+.icon-append,
+.icon-prepend {
+    position: absolute;
+    top: 5px;
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    z-index: 1005;
+}
+.icon-append {
+    right: 25px;
+    color: #777;
+    padding-left: 6px;
+    /*border-left-width: 1px;*/
+    /*border-left-style: solid;*/
+}
+.icon-prepend {
+    left: 10px;
+    color: #777;
+    padding-right: 6px;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+.icon-prepend + input,
+.icon-prepend + textarea {
+    padding-left: 40px;
+}
+
+.booking-form{
+    background: #F3DC5B;
+    max-width: 380px;
+    font-size:16px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    /*color:white;*/
+    box-shadow: 0px 2px 15px 0px #030303;
+    opacity: .95;
+    font-family: 'Muli', sans-serif;
+}
+.pac-container{
+    z-index: 1050!important;
+}
+#search-range{
+    z-index:1050!important;
+
+}
+.navbar-default{
+    background-color: #fafafa;
+    box-shadow: 0px 0px 5px;
+}
+.below-map{
+    position: absolute;
+    top: 650px;
+    min-height: 200px;
+    background: #e7e7e7;
+    /*background: #079292;*/
+    /*background: #92074A;*/
+    box-shadow: 0px 0px 5px;
+    z-index: 2;
+}
+.controls-label{
+    margin-top:17px;
+}
+.range-search-span{
+    position: absolute;
+    top: 16px;
+    right: -40px;}
+
+.small-link a{
+    font-size:13px;
+    color:#ffffff;
+}
+.all-rides.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th{
+    background: rgba(255, 255, 255, 0.50);
+}
+.all-rides.table>tbody>tr>td{
+    line-height: 0.65;
+}
+
+.login_body{
+    background: url(http://mymaplist.com/img/parallax/back.png);
+    background-color: #444;
+    height:500px;
+    background: url(http://mymaplist.com/img/parallax/pinlayer2.png),url(http://mymaplist.com/img/parallax/pinlayer1.png),url(http://mymaplist.com/img/parallax/back.png);
+}
+
+.margin-top-10{ margin-top: 10px }
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+.panel{
+    box-shadow: 0px 2px 8px 0px #030303;
+    border-radius: 4px;
+}
+/*.green{    background: rgba(206, 245, 113, 0.95)!important; }*/
+.green{    background: #92cc47; }
+
+.help-red{  color: #f0776c; }
+input.ng-valid-pattern{   background-color: #DEFDCA;    }
+input.ng-pristine {  background-color: #ffffff;  }
+
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+/*Account section*/
+.user-details {position: relative; padding: 0;}
+.user-details .user-image {position: relative;  z-index: 1; width: 500px; text-align: center;}
+.user-image img { clear: both; margin: auto; position: relative;}
+
+.user-details .user-info-block {
+    position: absolute; top: 55px; background: rgb(255, 255, 255); z-index: 0; padding-top: 35px;
+    box-shadow: 0px 2px 8px 0px #030303;
+    width: 500px;
+    border-radius: 4px;}
+.user-info-block .user-heading {width: 100%; text-align: center; margin: 10px 0 0;}
+.user-info-block .navigation {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0; list-style: none;
+    /*border-bottom: 1px solid #428BCA; border-top: 1px solid #428BCA;*/
+}
+.navigation li {float: left; margin: 0; padding: 0;}
+.navigation li a {padding: 8px 15px; float: left;}
+.navigation li.active a {background: #428BCA; color: #fff; border-radius: 4px;}
+.user-info-block .user-body {float: left;
+    padding: 5px 10px;
+    width: 100%;}
+.user-body .tab-content > div {float: left; width: 100%;}
+.user-body .tab-content h4 {width: 100%; margin: 10px 0; color: #333;}
+
+.upload-position{
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
+label{
+    font-weight: 400;
+    margin-bottom: 0px;
+    color:#ccc;
+}
+.input-group input{
+    height:34px;
+}
+.form-control{
+    height: 27px;
+    padding-top: 5px;
+    padding-left: 27px;
+    border: 1px solid #FFF;
+    border-bottom: 1px solid #ccc;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.icon-underline-input{
+    position:absolute;
+    top:27px;
+    left:22px;
+    color: #aaa;
+
+}
+.is-black{
+    color:#000;
+}
+.modal-content{
+    padding: 10px 20px;
+}
+.top-20{
+    margin-top:25px;
+}

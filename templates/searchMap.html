@@ -1,0 +1,75 @@
+<div class="row-fluid">
+    <div searchmap="gmap_search"></div>
+    <div class='row-fluid'>
+        <div id="map_canvas" class="google-map-fixed">
+        </div>
+    </div>
+</div>
+
+
+<div class="section-colored text-center" data-ng-controller="mainCtrl">
+
+    <div class="container" >
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Ride with me TODAY: A Clean &amp; Simple platform for car pooling</h2>
+                <p>A complete website design featuring various single page templates from Start Bootstraps library of free HTML starter templates.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.section-colored -->
+
+
+<div class="section-colored" ng-cloak ng-controller="getRidesList as list" ng-show="listView">
+
+    <div class="container" >
+
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8">
+
+                <h2>Rides</h2>
+
+                <table class="table table-striped  all-rides ng-cloak">
+                    <thead>
+                    <th>Id</th>
+                    <th>From Address</th>
+                    <th>To Address</th>
+                    <th>Publisher</th>
+                    <th>Action</th>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="ride in list.rides.rides | filter: filterText">
+                        <td> {{ride.id}}</td>
+                        <td> {{ride.fromAddress}}</td>
+                        <td> {{ride.toAddress}}</td>
+                        <td> {{ride.userId}}</td>
+                        <td>
+                            <a href=""> View on map</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="input-group">
+                    <i class="icon-prepend glyphicon glyphicon-search"></i>
+                    <input type="text" id="search" ng-model='filterText'/>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <img class="img-responsive" src="http://placehold.it/700x450/ffffff/cccccc">
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.section-colored -->

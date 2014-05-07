@@ -1,0 +1,71 @@
+<div class="row-fluid">
+    <h3>Publish the ride</h3>
+    <hr class="colorgraph">
+    <form name="vehicle" class="form-horizontal" ng-submit="addCarFct()">
+        <fieldset>
+            <div class="row">
+                <div class="col-xs-6">
+                    <label for="carmaker">From</label>
+                    <i class="icon-underline-input glyphicon glyphicon-map-marker"></i>
+                    <input id="carmaker" name="maker" type="text" placeholder=""
+                           class="form-control"
+                           ng-model="car.maker" value="{{ ride.fromAddress }}" required/>
+                </div>
+                <div class="col-xs-1 text-center top-20">
+                    <i class="glyphicon glyphicon-arrow-right"></i>
+                </div>
+                <div class="col-xs-5">
+                    <label for="carmodel">To</label>
+                    <i class="icon-underline-input glyphicon glyphicon-flag"></i>
+                    <input id="carmodel" name="color" type="text" class="form-control"
+                           ng-model="car.model" value="{{ ride.fromAddress }}" required/>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-xs-4">
+                    <label for="carlicense">Total number of seats</label>
+                    <i class="icon-underline-input glyphicon glyphicon-user"></i>
+                    <input id="carlicense" name="license" type="text"
+                           class="form-control"
+                           ng-model="car.licence" value="{{ car.totalSeats }}" required/>
+                </div>
+                <div class="col-xs-4">
+                    <label for="caryear">Pickup time</label>
+                    <i class="icon-underline-input glyphicon glyphicon-time"></i>
+                    <input id="caryear" name="year" type="text" class="form-control"
+                           ng-model="car.year" value="{{ car.pickupDateTime }}" required size="4"
+                           maxlength="4"/>
+                </div>
+                <div class="col-xs-4">
+
+
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-xs-4">
+                    <label class="is-black">
+                        <input type="checkbox" id="recursive" class="btn" data-color="info"
+                               ng-model="car.isRecursive"/>
+                        Is recursive?</label>
+                </div>
+                <div class="col-xs-4">
+                    <select name="cars" multiple>
+                        <option value="Luni">Luni</option>
+                        <option value="Marti">Marti</option>
+                        <option value="Miercuri">Miercuri</option>
+                        <option value="Joi">Joi</option>
+                    </select>
+                </div>
+            </div>
+            <hr class="colorgraph">
+            <div class="col-xs-6 col-xs-offset-3">
+                <input class="btn btn-success btn-block" type="submit" value="Publish"
+                       ng-disabled="vehicle.$invalid"/>
+                <br/>
+            </div>
+
+        </fieldset>
+    </form>
+</div>

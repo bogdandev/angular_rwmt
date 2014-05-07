@@ -1,0 +1,35 @@
+
+<div class="col-md-6 col-md-offset-3" ng-cloak ng-controller="getRidesList as list">
+    <!--<input type="text" class="btn btn-default" ng-model="idBook" />-->
+    <!--<button ng-click="setStatus({{idBook}})"> Set</button>-->
+    <div class="col-md-6"><h2>Rides list</h2>
+    </div>
+    <div class="col-md-6">
+        <div class="input-group">
+            <i class="icon-prepend glyphicon glyphicon-search"></i>
+            <input type="text" id="search" ng-model='filterText'/>
+        </div>
+    </div>
+    <hr/>
+    <table class="table table-striped ng-cloak">
+        <thead>
+        <th>Id</th>
+        <th>From Address</th>
+        <th>To Address</th>
+        <th>User</th>
+        <th>Action</th>
+        </thead>
+        <tbody>
+        <tr ng-repeat="ride in list.rides.rides | filter: filterText">
+            <td> {{ride.id}}</td>
+            <td> {{ride.fromAddress}}</td>
+            <td> {{ride.toAddress}}</td>
+            <td> {{ride.userId}}</td>
+            <td>
+                <button> Action</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <br/>
+</div>

@@ -1,0 +1,50 @@
+<div class="row-fluid">
+    <h3>Add a new car</h3>
+    <hr class="colorgraph">
+<form name="vehicle" class="form-horizontal" ng-submit="addCarFct()">
+    <fieldset>
+        <div class="row">
+            <div class="col-xs-4">
+                <label for="carmaker">Car
+                    maker</label>
+                <input id="carmaker" name="maker" type="text" placeholder=""
+                       class="form-control"
+                       ng-model="car.maker" value="{{ car.maker }}" required/>
+            </div>
+            <div class="col-xs-4">
+                <label for="carmodel">Car model</label>
+                <input id="carmodel" name="color" type="text" class="form-control"
+                       ng-model="car.model" value="{{ car.model }}" required/>
+            </div>
+            <div class="col-xs-4">
+                <label for="carcolor">Car color</label>
+                <input id="carcolor" name="color" type="text" class="form-control"
+                       ng-model="car.color" value="{{ car.color }}" required/>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-xs-8">
+                <label for="carlicense">License plate</label>
+                <input id="carlicense" name="license" type="text"
+                       class="form-control"
+                       ng-model="car.licence" value="{{ car.licence }}" required/>
+            </div>
+            <div class="col-xs-4">
+                <label for="caryear">Year car was
+                    built</label>
+                <input id="caryear" name="year" type="text" class="form-control"
+                       ng-model="car.year" value="{{ car.year }}" required size="4"
+                       maxlength="4"/>
+            </div>
+        </div>
+        <hr class="colorgraph">
+        <div class="col-xs-6 col-xs-offset-3">
+            <input class="btn btn-success btn-block" type="submit" value="Save"
+                   ng-disabled="vehicle.$invalid"/>
+            <br/>
+        </div>
+
+    </fieldset>
+</form>
+</div>

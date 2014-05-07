@@ -1,0 +1,36 @@
+
+<div class="row in-front col-md-3">
+    <form class="booking-form" ng-controller="processForm">
+        <h3 class="text-center">Publish a new ride</h3>
+        <hr class="colorgraph">
+            <div id="pickup-group" class="form-group" ng-class="{ 'has-error' : errorPickup }">
+                <!--<label for="AutocompletePickUp" class="col-md-2 control-label">From</label>-->
+                <div class="col-md-12 input-group" tooltip="Enter your pickup location">
+                    <!--<span class="input-group-addon">Pickup</span>-->
+                    <i class="icon-prepend glyphicon glyphicon-map-marker"></i>
+                    <input type="text" id="AutocompletePickUp" ng-model="ride.fromAddress" class="form-control"
+                           ng-autocomplete options="options" details="details"  placeholder="From"/>
+                    <span class="input-group-addon" ng-click="ride.findLocation()"><i class="glyphicon glyphicon-screenshot"></i></span>
+                </div>
+
+                <!--<span class="help-block" ng-show="errorPickup">{{ errorPickup }}</span>-->
+            </div>
+            <div id="dropoff-group" class="form-group" ng-class="{'has-error' : errorDropoff}">
+                <!--<label for="AutocompleteDropOff" class="col-md-2 control-label">To</label>-->
+                <div class="col-md-12 input-group" tooltip="Enter required dropoff location">
+                    <!--<span class="input-group-addon">Dropoff</span>-->
+                    <i class="icon-prepend glyphicon glyphicon-flag"></i>
+                    <input type="text" id="AutocompleteDropOff" ng-model="ride.toAddress" class="form-control"
+                           ng-autocomplete options="options" details="details"  placeholder="To"/>
+                </div>
+                <!--<span class="help-block" ng-show="errorDropoff">{{ errorDropoff }}</span>-->
+            </div>
+        <div class="text-center">
+        <button class="btn btn-default" data-ng-click='ride.setDirections()'><i class="glyphicon  glyphicon-transfer"></i> Get Directions</button>
+        <button class="btn btn-default" data-ng-click='publishModal()'><i class="glyphicon glyphicon-road"></i> Publish a Ride</button>
+        </div>
+        <br/>
+    </form>
+</div>
+
+
