@@ -23,6 +23,13 @@ rwmtBook.directive('otherDetails', function() {
         replace: true
     };
 });
+rwmtBook.directive('carList', function() {
+    return {
+        restrict: 'A',
+        templateUrl: 'templates/partials/carList.html',
+        replace: true
+    };
+});
 
 rwmtBook.directive("profile", function ($window, config) {
     return function (scope, element) {

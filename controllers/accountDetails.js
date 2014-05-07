@@ -86,6 +86,7 @@ rwmtBook.controller('profileCtrl',
                         $scope.cars = data;
                     });
             }
+
         $scope.getCars();
 
         $scope.updateProfile = function () {
@@ -116,7 +117,6 @@ rwmtBook.controller('profileCtrl',
 
         var method_type="";
         var car_id="";
-//LEGATURA INTRE USER ID SI CAR ID
         if ($scope.carID){
             method_type = "PUT";
             car_id = $scope.carID;
@@ -137,10 +137,10 @@ rwmtBook.controller('profileCtrl',
                     "year": $scope.car.year,
                     "licencePlate": $scope.car.licence
                 }
-            }).success(function (data) {
-                    console.log(data);
+            }).success(function () {
                     $scope.addCar=false;
                     $scope.getCars();
+                    $scope.clearCarInputs();
                     toaster.pop('success', "Successfully saved!");
 
                 }).error(function (data, status) {
@@ -149,6 +149,15 @@ rwmtBook.controller('profileCtrl',
                         console.log(data);
                     }
                 });
+        };
+
+
+        $scope.clearCarInputs = function () {
+            $scope.car.maker = '';
+            $scope.car.model = '';
+            $scope.car.color = '';
+            $scope.car.year = '';
+            $scope.car.licence = '';
         };
 
         $scope.addCarModal = function () {
@@ -197,7 +206,7 @@ rwmtBook.controller('profileCtrl',
                 }
             }).success(function (data) {
                     console.log(data);
-                    toaster.pop('success', "Successfully saved!");
+                    toaster.pop('success', "Successfully deleted!");
 
                 }).error(function (data, status) {
                     toaster.pop('error', data);

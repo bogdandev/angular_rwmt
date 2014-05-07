@@ -1,0 +1,25 @@
+<table id="mytable" class="table table-bordred table-striped">
+    <thead>
+    <th>Car</th>
+    <th>Year</th>
+    <th>Licence plate</th>
+    <th></th>
+    </thead>
+    <tbody>
+    <tr ng-repeat="car in cars">
+        <td> {{ car.maker }}  {{ car.model }}  {{ car.color }}</td>
+        <td> {{ car.year }}</td>
+        <td>  {{ car.licencePlate }}</td>
+        <td>
+             <!--NU MERGE-->
+            <input type="hidden" value="{{ car.id }}"/>
+            <button type="button" class="btn btn-default btn-xs" ng-click="updateCar(car.id)">
+            <span class="glyphicon glyphicon-pencil"></span>
+            </button>
+            <button type="button" class="btn btn-danger btn-xs" ng-click="delete(car.id)">
+                <span class="glyphicon glyphicon-trash"></span>
+            </button>
+        </td>
+    </tr>
+    </tbody>
+</table>
