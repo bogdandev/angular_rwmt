@@ -22,22 +22,13 @@
     <favorites_list name="angular_rwmt" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4977806">
+    <splitter split-orientation="horizontal" split-proportion="0.3587323">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="93" column="50" selection-start="4823" selection-end="4832" vertical-scroll-proportion="0.4375" vertical-offset="1224" max-vertical-offset="2040">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="addEditCar.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/partials/addEditCar.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="25" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="935">
+                <state line="7" column="79" selection-start="187" selection-end="250" vertical-scroll-proportion="-2.2884614" vertical-offset="0" max-vertical-offset="2040">
                   <folding />
                 </state>
               </provider>
@@ -70,19 +61,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/profile.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="88" column="111" selection-start="5605" selection-end="5673" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="3723">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mainApp.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/mainApp.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="50" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+                <state line="88" column="111" selection-start="5605" selection-end="5673" vertical-scroll-proportion="0.14133017" vertical-offset="1377" max-vertical-offset="3723">
                   <folding />
                 </state>
               </provider>
@@ -146,10 +128,28 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="processRides.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="processRides.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/controllers/processRides.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="0" selection-start="857" selection-end="857" vertical-scroll-proportion="0.52880186" vertical-offset="51" max-vertical-offset="1870">
+                <state line="21" column="25" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1870">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="googlemapsRide.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/directives/googlemapsRide.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="188" column="39" selection-start="7813" selection-end="7813" vertical-scroll-proportion="0.0" vertical-offset="2600" max-vertical-offset="5457">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="googlemap.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/directives/googlemap.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="203" column="27" selection-start="8995" selection-end="8995" vertical-scroll-proportion="0.118663594" vertical-offset="3348" max-vertical-offset="11594">
                   <folding />
                 </state>
               </provider>
@@ -178,11 +178,9 @@
         <option value="$PROJECT_DIR$/templates/ridesList.html" />
         <option value="$PROJECT_DIR$/directives/loadTemplates.js" />
         <option value="$PROJECT_DIR$/controllers/googleMapsCtrl.js" />
-        <option value="$PROJECT_DIR$/directives/googlemapsRide.js" />
         <option value="$PROJECT_DIR$/vendor/bootstrap/bootstrap.css" />
         <option value="$PROJECT_DIR$/vendor/slider/angular-slider.css" />
         <option value="$PROJECT_DIR$/vendor/toaster/toaster.js" />
-        <option value="$PROJECT_DIR$/directives/googlemap.js" />
         <option value="$PROJECT_DIR$/templates/newRideMap.html" />
         <option value="$PROJECT_DIR$/vendor/modern-business.css" />
         <option value="$PROJECT_DIR$/vendor/hint/hint.css" />
@@ -214,6 +212,8 @@
         <option value="$PROJECT_DIR$/templates/partials/publishRide.html" />
         <option value="$PROJECT_DIR$/controllers/processRides.js" />
         <option value="$PROJECT_DIR$/app/mainApp.js" />
+        <option value="$PROJECT_DIR$/directives/googlemapsRide.js" />
+        <option value="$PROJECT_DIR$/directives/googlemap.js" />
       </list>
     </option>
   </component>
@@ -582,6 +582,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265086" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21906267" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -592,7 +593,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265086" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49676025" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -704,11 +704,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/slider/angular-slider.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="887" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directives/googlemapsRide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="315" column="3" selection-start="97" selection-end="12765" vertical-scroll-proportion="1.1149944" vertical-offset="4366" max-vertical-offset="5457" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/slider/angular-slider.css">
@@ -824,11 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/googlemap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="47" selection-start="14036" selection-end="14037" vertical-scroll-proportion="1.8107142" vertical-offset="3664" max-vertical-offset="11594" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/directives/loadTemplates.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="42" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
@@ -839,13 +829,6 @@
     <entry file="file://$PROJECT_DIR$/templates/newRide.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="88" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="111" selection-start="5605" selection-end="5673" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="3723">
           <folding />
         </state>
       </provider>
@@ -876,23 +859,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/processRides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="857" selection-end="857" vertical-scroll-proportion="0.52880186" vertical-offset="51" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/publishRide.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="2115" selection-end="2115" vertical-scroll-proportion="-10.153846" vertical-offset="416" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mainApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="50" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
@@ -904,9 +873,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/processRides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="50" selection-start="4823" selection-end="4832" vertical-scroll-proportion="0.4375" vertical-offset="1224" max-vertical-offset="2040">
+        <state line="7" column="79" selection-start="187" selection-end="250" vertical-scroll-proportion="-2.2884614" vertical-offset="0" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mainApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="50" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.7649044" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="111" selection-start="5605" selection-end="5673" vertical-scroll-proportion="0.14133017" vertical-offset="1377" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/googlemapsRide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="39" selection-start="7813" selection-end="7813" vertical-scroll-proportion="0.0" vertical-offset="2600" max-vertical-offset="5457">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/googlemap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="27" selection-start="8995" selection-end="8995" vertical-scroll-proportion="0.118663594" vertical-offset="3348" max-vertical-offset="11594">
           <folding />
         </state>
       </provider>
