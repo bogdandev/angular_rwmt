@@ -213,6 +213,9 @@ angular.module('googleMaps', [])
                             function (data) {
 //                                directionsDisplay.setMap(map);
                                 addMarkers(data);
+                            })
+                            .fail(function() {
+                                toaster.pop('error', 'No results found!');
                             });
                     }
 
@@ -553,6 +556,9 @@ angular.module('googleMaps', [])
                             function (data) {
                                 directionsDisplay.setMap(map);
                                 addMarkers1(data);
+                            })
+                            .fail(function() {
+                                toaster.pop('error', 'No results found!');
                             });
                     }
 
