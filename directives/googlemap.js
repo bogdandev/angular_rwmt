@@ -206,7 +206,7 @@ angular.module('googleMaps', [])
 
                     function getNearbyLocations(point) {
                         clearNearbyMarkersOverlay();
-                        var url = "http://localhost.rwmt.com/app_dev.php/api/v1/rides/closest/long/" + point.getPosition().lng() + '/lat/' + point.getPosition().lat() + '/range/'+model.searchRange+'/limit/100';
+                        var url = "http://localhost.rwmt.com/app_dev.php/api/v1/rides/closest/lng/" + point.getPosition().lng() + '/lat/' + point.getPosition().lat() + '/range/'+model.searchRange+'/limit/100';
 //                        var url = "http://localhost.rwmt.com/app_dev.php/api/v1/rides/closest/long/" + point.getPosition().lng() + '/lat/' + point.getPosition().lat() + '/range/10/limit/100';
                         $.getJSON(url,
                             {},
