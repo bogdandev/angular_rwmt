@@ -6,7 +6,7 @@ rwmtBook.controller('registerCtrl',
     function ($scope, $http, authentication, config, toaster, $window) {
         //Settings
         $scope.EMAIL_REGEXP = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,5}$/;
-        $scope.PHONE_REGEXP = /^\d{10,15}$/;
+        $scope.PHONE_REGEXP = /^[0-9.+]{10,15}$/;
         $scope.PASSWORD_REGEXP = /^([a-zA-Z0-9@*#]{8,15})$/;
         authentication.clearCredentials();
         //Functions
@@ -59,7 +59,7 @@ rwmtBook.controller('registerCtrl',
 rwmtBook.controller('profileCtrl',
     function ($scope, $http, $cookieStore, config, toaster, $modal) {
         $scope.EMAIL_REGEXP = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,5}$/;
-        $scope.PHONE_REGEXP = /^\d{10,15}$/;
+        $scope.PHONE_REGEXP = /^[0-9.+]{10,15}$/;
         $scope.PASSWORD_REGEXP = /^([a-zA-Z0-9@*#]{8,15})$/;
 
         $scope.selectedTab = 2;
@@ -70,11 +70,11 @@ rwmtBook.controller('profileCtrl',
 //        $scope.selectTab1 = function(){
             $http.get(config.apiUrl + '/accounts/'+$scope.userId)
                 .success( function(data){
-                    $scope.firstName= data.user.first_name;
-                    $scope.lastName= data.user.last_name;
-                    $scope.username= data.user.username;
-                    $scope.email= data.user.email;
-                    $scope.phone= data.user.phone;
+                    $scope.firstName= data.first_name;
+                    $scope.lastName= data.last_name;
+                    $scope.username= data.username;
+                    $scope.email= data.email;
+                    $scope.phone= data.phone;
                     $scope.address= 'Iasi, RO';
                     $scope.gravatarEmailHash= '';
                 });
@@ -83,7 +83,7 @@ rwmtBook.controller('profileCtrl',
             $scope.getCars = function () {
                 $http.get(config.apiUrl + '/cars')
                     .success(function (data) {
-                        $scope.cars = data.cars;
+                        $scope.cars = data;
                     });
             }
         $scope.getCars();
@@ -102,6 +102,7 @@ rwmtBook.controller('profileCtrl',
                 }
             }).success(function () {
                     toaster.pop('success', "Successfully saved!");
+                    $scope.saved=true;
                     $scope.displayName = $scope.firstName+ ' ' +$scope.lastName ;
                     $cookieStore.put('displayName', $scope.displayName);
                 }).error(function (data, status) {
@@ -228,8 +229,8 @@ rwmtBook.controller('loginCtrl',
             }).success(function (data) {
                     $scope.isLogged = true;
                     toaster.pop('success', "Logged in");
-                    $scope.userId = data.user.id;
-                    $scope.displayName = data.user.first_name+ ' ' +data.user.last_name ;
+                    $scope.userId = data.id;
+                    $scope.displayName = data.first_name+ ' ' +data.last_name ;
                     $cookieStore.put('isLogged', $scope.isLogged);
                     $cookieStore.put('username', $scope.user.username);
                     $cookieStore.put('id_user', $scope.userId);

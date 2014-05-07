@@ -46,18 +46,21 @@
                                     <div class="row">
                                         <div class="col-xs-4">
                                             <label for="first_name">First name</label>
+                                            <i class="icon-underline-input glyphicon glyphicon-user"></i>
                                             <input type="text" name="first_name" id="first_name"
                                                    class="form-control " placeholder="First Name" tabindex="1"
                                                    ng-model="firstName" required/>
                                         </div>
                                        <div class="col-xs-4">
                                             <label for="last_name">Last name</label>
+                                           <i class="icon-underline-input glyphicon glyphicon-user"></i>
                                            <input type="text" name="last_name" id="last_name"
                                                   class="form-control " placeholder="Last Name" tabindex="2"
                                                   ng-model="lastName" required/>
                                         </div>
                                         <div class="col-xs-4">
                                             <label for="display_name">Username</label>
+                                            <i class="icon-underline-input glyphicon glyphicon-tags"></i>
                                              <input type="text" name="display_name" id="display_name"
                                                     class="form-control " placeholder="Username" tabindex="3"
                                                     ng-model="username" required/>
@@ -80,7 +83,6 @@
                                                    class="form-control " placeholder="Phone Number" tabindex="6"
                                                    ng-model="phone" ng-pattern="PHONE_REGEXP" required/>
                                         </div>
-
                                     </div>
                                     <br/>
                                     <div class="row">
@@ -108,12 +110,18 @@
                                     <div class="row-fluid help-red"
                                          ng-show="updateProfileErr">{{ updateProfileErr }}
                                     </div>
-                                    <div class="row">
-                                        <div class="col-xs-6 col-xs-offset-3">
+                                    <div class="row" ng-hide="saved">
+                                        <div class="col-xs-6 col-xs-offset-3" >
                                             <input type="submit" value="Save"
                                                    class="btn btn-success btn-block "
                                                    ng-disabled="profile.$invalid"
                                                    tabindex="9"/>
+                                        </div>
+                                    </div>
+                                    <div class="row" ng-show="saved">
+                                        <div class="col-xs-6 col-xs-offset-3 text-center" >
+                                            <h3><i class="glyphicon glyphicon-ok"></i> Saved</h3>
+                                            <br/>
                                         </div>
                                     </div>
                                 </form>
@@ -145,7 +153,7 @@
                                     </table>
 
                                     <div class="row-fluid">
-                                        <button type="button" class="btn btn-xs btn-success" ng-click="addCar=!addCar; addCarModal()">
+                                        <button type="button" class="btn btn-xs btn-success" ng-click="addCar=!addCar;">
                                             <i class="glyphicon glyphicon-plus"></i> Add car
                                         </button>
                                     </div>
