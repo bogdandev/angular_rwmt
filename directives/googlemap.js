@@ -86,7 +86,7 @@ angular.module('googleMaps', [])
 
                                 var data = {
                                     toLat: position.coords.latitude,
-                                    toLong: position.coords.longitude,
+                                    toLng: position.coords.longitude,
                                     name:'route' ,
                                     ID: 'route' ,
                                     icon:  'images/location.png' ,
@@ -150,7 +150,7 @@ angular.module('googleMaps', [])
 
                         var data = {
                             toLat: places[0].geometry.location.lat(),
-                            toLong: places[0].geometry.location.lng(),
+                            toLng: places[0].geometry.location.lng(),
                             name:'route' ,
                             ID: 'route' ,
                             icon: 'images/location.png' ,
@@ -189,7 +189,7 @@ angular.module('googleMaps', [])
 
                                 var data = {
                                     toLat: lat,
-                                    toLong: lng,
+                                    toLng: lng,
                                     name:top_location.address_components[0].long_name ,
                                     ID: 'route' ,
                                     icon: 'images/location.png' ,
@@ -212,7 +212,7 @@ angular.module('googleMaps', [])
                             {},
                             function (data) {
 //                                directionsDisplay.setMap(map);
-                                addMarkers(data.rides);
+                                addMarkers(data);
                             });
                     }
 
@@ -280,7 +280,7 @@ angular.module('googleMaps', [])
                     function addMarker(data, isDraggable, attachDragListener, attachClickListener, attachHoverListener) {
 //                        console.log(data);
                         var marker = new google.maps.Marker({
-                            position: new google.maps.LatLng(data.toLat, data.toLong),
+                            position: new google.maps.LatLng(data.toLat, data.toLng),
                             map: map,
                             title: data.name,
                             name: data.ID,
@@ -302,8 +302,8 @@ angular.module('googleMaps', [])
 
                         if(attachClickListener){
                             google.maps.event.addListener(marker, 'click', function () {
-                                var from = new google.maps.LatLng(data.fromLat, data.fromLong);
-                                var to = new google.maps.LatLng(data.toLat, data.toLong);
+                                var from = new google.maps.LatLng(data.fromLat, data.fromLng);
+                                var to = new google.maps.LatLng(data.toLat, data.toLng);
                                 setDirectionsNearby(from, to);
                                 showInfoWindow(data, marker);
                             });
@@ -547,13 +547,12 @@ angular.module('googleMaps', [])
                     function getNearbyLocations(point) {
                         //console.log(point.getPosition().lng());
                         clearOverlays();
-                        var url = "http://localhost.rwmt.com/app_dev.php/api/v1/rides/closest/long/" + point.getPosition().lng() + '/lat/' + point.getPosition().lat() + '/range/'+model.searchRange+'/limit/100';
+                        var url = "http://localhost.rwmt.com/app_dev.php/api/v1/rides/closest/lng/" + point.getPosition().lng() + '/lat/' + point.getPosition().lat() + '/range/'+model.searchRange+'/limit/100';
                         $.getJSON(url,
                             {},
                             function (data) {
                                 directionsDisplay.setMap(map);
-                                addMarkers1(data.rides);
-
+                                addMarkers1(data);
                             });
                     }
 
@@ -586,7 +585,7 @@ angular.module('googleMaps', [])
                     function addMarker1(data, i) {
 
                         var marker = new google.maps.Marker({
-                            position: new google.maps.LatLng(data.toLat, data.toLong),
+                            position: new google.maps.LatLng(data.toLat, data.toLng),
                             map: map,
                             title: data.name,
                             name: data.ID,

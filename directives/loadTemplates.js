@@ -28,7 +28,7 @@ rwmtBook.directive('searchs', function () {
         templateUrl: "templates/searchs.html",
         link: function (scope, iElement, iAttrs, enterUserCtrl) {
             scope.delete = function(user) {
-                enterUserCtrl.delete(user)
+                enterUserCtrl.delete(user);
             }
         }
     };

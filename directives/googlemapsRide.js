@@ -191,7 +191,7 @@ angular.module('googleMaps', [])
                         {},
                         function (data) {
                             directionsDisplay.setMap(map);
-                            addMarkers1(data.rides);
+                            addMarkers1(data);
 
                         });
                 }
@@ -225,7 +225,7 @@ angular.module('googleMaps', [])
                 function addMarker1(data, i) {
 
                     var marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(data.toLat, data.toLong),
+                        position: new google.maps.LatLng(data.toLat, data.toLng),
                         map: map,
                         title: data.name,
                         name: data.ID,
