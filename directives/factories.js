@@ -3,18 +3,18 @@
  */
 
 
-rwmtBook.factory('getRidesFactory', function ($http) {
+rwmtBook.factory('getRidesFactory', function ($http, config) {
     return {
         getRides: function (callback) {
-            $http.get('http://localhost.rwmt.com/app_dev.php/api/v1/rides').success(callback);
+            $http.get(config.apiUrl + '/rides').success(callback);
         }
     };
 });
 
-rwmtBook.factory('getUserDetails', function ($http) {
+rwmtBook.factory('getUserDetails', function ($http, config) {
     return {
         getUser: function (callback) {
-            $http.get('http://localhost.rwmt.com/app_dev.php/api/v1/:id', {params: { id: userId}}).success(callback);
+            $http.get(config.apiUrl + '/:id', {params: { id: userId}}).success(callback);
         }
     };
 });

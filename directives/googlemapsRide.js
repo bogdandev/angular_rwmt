@@ -3,7 +3,7 @@
  */
 "use strict";
 angular.module('googleMaps', [])
-.directive('ridesmap', function ($window, $parse) {
+.directive('ridesmap', function ($window, $parse,config) {
     var counter = 0,
         prefix = '__gm_gmap_';
 
@@ -186,7 +186,7 @@ angular.module('googleMaps', [])
                 function getNearbyLocations(point) {
                     //console.log(point.getPosition().lng());
                     clearOverlays();
-                    var url = "http://localhost.rwmt.com/app_dev.php/api/v1/rides/closest/lng/" + point.getPosition().lng() + '/lat/' + point.getPosition().lat() + '/range/'+model.searchRange+'/limit/100';
+                    var url = config.apiUrl +"/rides/closest/lng/" + point.getPosition().lng() + '/lat/' + point.getPosition().lat() + '/range/'+model.searchRange+'/limit/100';
                     $.getJSON(url,
                         {},
                         function (data) {
