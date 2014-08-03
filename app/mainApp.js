@@ -37,9 +37,10 @@ rwmtBook.controller('setAPIheader', function(authentication, config){
     });
 
 rwmtBook.constant('config', {
-//    'apiUrl': 'http://api.ridewithme.today/app_dev.php/api/v1',
-    'apiUrl': 'http://localhost.rwmt.com/app_dev.php/api/v1',
-    'hostUrl': 'http://localhost:7000',
+    'apiUrl': 'http://api.ridewithme.today/app_dev.php/api/v1',
+//    'apiUrl': 'http://localhost.rwmt.com/app_dev.php/api/v1',
+    'hostUrl': 'http://ridewithme.today',
+//    'hostUrl': 'http://localhost:7000',
     'version': 1.0,
     'apiKey' : 'P182dla1aq8AvIELjFz9'
 })
