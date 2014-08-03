@@ -236,12 +236,13 @@ rwmtBook.controller('loginCtrl',
                 url: config.apiUrl + '/login',
                 dataType: 'json'
             }).success(function (data) {
+                    var response = data.user;
                     $scope.isLogged = true;
                     toaster.pop('success', "Logged in");
-                    $scope.userId = data.id;
-                    $scope.displayName = data.first_name+ ' ' +data.last_name ;
+                    $scope.userId = response.id;
+                    $scope.displayName = response.first_name+ ' ' +response.last_name ;
                     $cookieStore.put('isLogged', $scope.isLogged);
-                    $cookieStore.put('username', $scope.user.username);
+                    $cookieStore.put('username', response.username);
                     $cookieStore.put('id_user', $scope.userId);
                     $cookieStore.put('displayName', $scope.displayName);
                     $window.location = config.hostUrl + '/#/profile';
