@@ -70,11 +70,12 @@ rwmtBook.controller('profileCtrl',
 //        $scope.selectTab1 = function(){
             $http.get(config.apiUrl + '/accounts/'+$scope.userId)
                 .success( function(data){
-                    $scope.firstName= data.first_name;
-                    $scope.lastName= data.last_name;
-                    $scope.username= data.username;
-                    $scope.email= data.email;
-                    $scope.phone= data.phone;
+                    var response = data.user;
+                    $scope.firstName= response.first_name;
+                    $scope.lastName= response.last_name;
+                    $scope.username= response.username;
+                    $scope.email= response.email;
+                    $scope.phone= response.phone;
                     $scope.address= 'Iasi, RO';
                     $scope.gravatarEmailHash= '';
                 });
